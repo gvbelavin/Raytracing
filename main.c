@@ -37,9 +37,9 @@ static vec3 color(ray r, const hitable *world, int depth)
 
 int main(void)
 {
-    const int nx = 1920;
-    const int ny = 1080;
-    const int ns = 2500;             // foton per-pixel
+    const int nx = 1280;
+    const int ny = 720;
+    const int ns = 100;             // foton per-pixel
     rng_seed(0xDEADBEEF);
 
     // materials
